@@ -1,0 +1,148 @@
+import java.util.Arrays;
+
+ class ArrayExample {
+    public static void main(String[] args) {
+        // Declaration and creation of an array
+        int[] numbers = new int[5];
+
+        // Initializing array elements
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+        numbers[3] = 40;
+        numbers[4] = 50;
+
+        // Accessing array elements
+        int firstElement = numbers[0]; // Retrieves the value 10
+
+        // Modifying array elements
+        numbers[1] = 25; // Changes the value at index 1 to 25
+
+        // Array length
+        int length = numbers.length; // Retrieves the length of the array, which is 5
+
+        // Iterating over an array
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
+        // Arrays class methods
+        int[] numbersCopy = Arrays.copyOf(numbers, numbers.length); // Creates a copy of the array
+
+        boolean contains30 = Arrays.asList(numbers).contains(30); // Checks if the array contains a specific value
+
+        Arrays.sort(numbers); // Sorts the array in ascending order
+
+        int index = Arrays.binarySearch(numbers, 40); // Searches for a value in the sorted array and returns its index
+
+        // Multi-dimensional arrays
+        int[][] matrix = new int[3][3];
+        matrix[0][0] = 1;
+        matrix[0][1] = 2;
+        matrix[0][2] = 3;
+        matrix[1][0] = 4;
+        matrix[1][1] = 5;
+        matrix[1][2] = 6;
+        matrix[2][0] = 7;
+        matrix[2][1] = 8;
+        matrix[2][2] = 9;
+
+        // Printing a multi-dimensional array
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
+//        Declaration, creation, and initialization of an array.
+//        Accessing and modifying array elements.
+//                Retrieving the length of an array.
+//                Iterating over an array using a for loop.
+//                Using the Arrays class methods:
+//        copyOf() method to create a copy of an array.
+//        asList() method to convert an array into a List and check if it contains a specific value.
+//                sort() method to sort the array.
+//                binarySearch() method to search for a value in a sorted array and return its index.
+//                Working with multi-dimensional arrays:
+//        Declaration, creation, and initialization of a 2D array.
+//                Printing the contents of a 2D array.
+    }
+}
+
+
+
+import java.util.Arrays;
+
+ class ArrayAdvancedExample {
+    public static void main(String[] args) {
+
+//        Enhanced for loop to iterate over an array.
+//        Array initialization with values.
+//        Array copy using both System.arraycopy() and clone() methods.
+//                Creating and working with arrays of objects.
+//        Varargs usage with arrays.
+//        Creation and accessing of multi-dimensional arrays.
+
+
+        // Enhanced for loop
+        int[] numbers = {10, 20, 30, 40, 50};
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+
+        // Array initialization with values
+        int[] otherNumbers = new int[]{60, 70, 80, 90, 100};
+        System.out.println(Arrays.toString(otherNumbers));
+
+        // Array copy
+        int[] sourceArray = {1, 2, 3, 4, 5};
+        int[] destinationArray1 = new int[sourceArray.length];
+        int[] destinationArray2 = sourceArray.clone();
+        System.arraycopy(sourceArray, 0, destinationArray1, 0, sourceArray.length);
+        System.out.println(Arrays.toString(destinationArray1));
+        System.out.println(Arrays.toString(destinationArray2));
+
+        // Arrays of objects
+        class Person {
+            private String name;
+
+            public Person(String name) {
+                this.name = name;
+            }
+
+            public String getName() {
+                return name;
+            }
+        }
+
+        Person[] people = new Person[3];
+        people[0] = new Person("Alice");
+        people[1] = new Person("Bob");
+        people[2] = new Person("Charlie");
+
+        for (Person person : people) {
+            System.out.println(person.getName());
+        }
+
+        // Varargs with arrays
+        printNumbers(10, 20, 30, 40, 50);
+
+        // Multi-dimensional arrays
+        int[][] matrix = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        int element = matrix[1][2]; // Accessing an element (row 1, column 2)
+        System.out.println(element);
+    }
+
+    static void printNumbers(int... numbers) {
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
