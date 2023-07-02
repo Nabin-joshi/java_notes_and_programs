@@ -19,16 +19,15 @@ class AWTExample2 extends Frame {
 
        TextField t2 = new TextField("Email");
 
-       frame.add(l1);
-       frame.add(t1);
-       frame.add(t2);
-       frame.add(b1);
+       add(l1);
+       add(t1);
+       add(t2);
+       add(b1);
 
-       frame.setTitle("Example");
-       frame.setVisible(true);
-       frame.setLayout(null);
-
-       frame.setSize(400,400);
+       setTitle("Example");
+       setVisible(true);
+       setLayout(null);
+       setSize(400,400);
 
     }
 

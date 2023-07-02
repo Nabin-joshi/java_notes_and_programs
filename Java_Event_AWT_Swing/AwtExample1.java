@@ -11,13 +11,15 @@ import java.awt.*;
         // creating a button
         Button b = new Button("Click Me!!");
 
-        JLabel jLabel = new JLabel();
+        Label l = new Label("this is the demo label");
 
         // setting button position on screen
         b.setBounds(30,100,80,30);
 
+        l.add(new PopupMenu());
         // adding button into frame
         add(b);
+        add(l);
 
         // frame size 300 width and 300 height
         setSize(300,300);
