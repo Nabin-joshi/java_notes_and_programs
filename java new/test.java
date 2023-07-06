@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Simple{}
+class Simple2{}
 class test2{}
 
 class test1 {
@@ -20,7 +20,7 @@ class test1 {
         System.out.println(c.isInterface());
 
 //        getClass() method of Object class
-        Simple s = new Simple();
+        Simple2 s = new Simple2();
         test2 t = new test2();
         test1 obj = new test1();
         obj.printName(s);
