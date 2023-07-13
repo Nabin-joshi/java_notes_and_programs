@@ -9,7 +9,7 @@ import java.awt.event.*;
         button.addActionListener(this); // Register the button for event handling
         add(button);                     // Add the button to the frame
         setSize(300, 200);               // Set the size of the frame
-        setVisible(true);                // Make the frame visible
+        setVisible(true);                // M   ake the frame visible
     }
 
     public void actionPerformed(ActionEvent e) {

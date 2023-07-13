@@ -1,5 +1,5 @@
 	// importing awt libraries
-        	import java.awt.*;
+	import java.awt.*;
 	import java.awt.event.*;
 	// class which inherits Frame class and implements KeyListener interface
         	 class KeyListenerExample extends Frame implements KeyListener {

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="564d4c8e-e8b4-416f-bf44-bd7594b8ad76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Java_Networking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_Server/out/production/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IpAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../URLConnDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../URLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Java_Networking/.idea/Java_Networking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCPClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../udp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../udp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../udp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../udp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../udp/udp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java_Event_AWT_Swing/Evenet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java_Event_AWT_Swing/Evenet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java_Event_AWT_Swing/keyEventListiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java_Event_AWT_Swing/keyEventListiner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2SV8LImbCIceeASAQcdL5IhzhN8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="564d4c8e-e8b4-416f-bf44-bd7594b8ad76" name="Changes" comment="" />
+      <created>1689220335818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689220335818</updated>
+    </task>
+    <servers />
+  </component>
+</project>
