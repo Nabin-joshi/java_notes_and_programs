@@ -1,3 +1,5 @@
+package Client_Server;
+
 import org.w3c.dom.ls.LSOutput;
 
 import javax.sound.midi.Soundbank;
@@ -13,15 +15,34 @@ public class Server{
         try{
             System.out.println("Waiting For Client");
             ServerSocket sc = new ServerSocket(8989);
+
             Socket soc = sc.accept();
+
             System.out.println("Connection Established");
+
+
+//            client work
             BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
             String str = in.readLine();
             System.out.println(str);
-            BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
-            String strl = userInput.readLine();
+
+
+            String  reverse="";
+            char ch;
+            for(int i=0;i<str.length();i++){
+                ch= str.charAt(i);
+                reverse=ch+reverse;
+            }
+            System.out.println(reverse);
+            String outString = "";
+            if(str.equals(reverse)){
+                outString = "Plaindrome";
+                System.out.println("Plaindrome");
+            }
+
+
             PrintWriter out= new PrintWriter(soc.getOutputStream(),true);
-            out.println(strl);
+            out.println(outString);
 //
 //            if(str.equals("add")){
 //                int result = 10;

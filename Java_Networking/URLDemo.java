@@ -7,7 +7,7 @@ public class URLDemo
     {
         try
         {
-            URL url = new URL("http://www.amrood.com/index.htm?language=en#j2se");
+            URL url = new URL("http://www.amrood.com/index.html?language=en#j2se");
 
             System.out.println("URL is " + url.toString());
             System.out.println("protocol is " + url.getProtocol());

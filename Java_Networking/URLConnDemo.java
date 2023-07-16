@@ -6,7 +6,7 @@ public class URLConnDemo
     {
         try
         {
-            URL url = new URL("http://www.google.com");
+            URL url = new URL("https://github.com/Nabin-joshi/java_notes_and_programs/tree/main/Java_Networking");
             URLConnection urlConnection = url.openConnection();
             HttpURLConnection connection = null;
             if(urlConnection instanceof HttpURLConnection)

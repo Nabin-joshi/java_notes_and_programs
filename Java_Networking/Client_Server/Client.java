@@ -12,10 +12,12 @@ public class Client {
         try {
             System.out.println("Client Started");
             Socket soc = new Socket("localhost",8989);
+
             BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
             String str = userInput.readLine();
             PrintWriter out= new PrintWriter(soc.getOutputStream(),true);
             out.println(str);
+
             BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
             String strl = in.readLine();
             System.out.println(strl);
